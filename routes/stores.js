@@ -42,5 +42,9 @@ exports.wholeinfo = function(req, res) { 
 exports.northinfo = function(req, res) { 
 	res.render('northgate',)//'sprouts','vons',)
 }
+exports.swapinfo = function(req, res) { 
+	res.render('swapmain',)//'sprouts','vons',)
+}
+
 
 //,'costco','cvs','traderjoes','zionmarket','albertsons','food4less','pavillions','wholefoods','northgate'

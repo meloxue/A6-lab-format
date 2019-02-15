@@ -57,6 +57,7 @@ app.get('/food4less', stores.foodinfo);
 app.get('/pavillions', stores.pavinfo);
 app.get('/wholefoods', stores.wholeinfo);
 app.get('/northgate', stores.northinfo);
+app.get('/swapmain', stores.swapinfo);
 //Add routes here // add coupon handlebar
 app.get('/couponjson', coupons.couponslist);
 app.get('/coupon_cat', coupons.couponscata);
