@@ -2,20 +2,53 @@
 
 <html>
 <head>
-	<title>Schnip - Preferences</title>
+	<title>Schnip - Preferences </title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="/css/a5skeleton.css" rel="stylesheet">
-   
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/a5skeleton.css" rel="stylesheet">
+	<link href="css/a5screen2.css" rel="stylesheet">
+
 </head>
 
 <body>
-	<div class="container">
-		<h1>Check Out</h1>
-		<h3><a href="index.handlebars">Back</a></h3>
-	</div>
+	<div class="appbox" align="center">
+		<div class="container">
+			<h1>Preferences</h1>
 
-</body>
-</html>
+			<div>
+				<h3>Your location data is off. Please enter zip.</h3>
+
+				<form>
+					<h3>Zip code:</h3>
+					<h2><input type="text" name="zipcode"></h2>
+					<h3><input type="submit" value="Search"></h3>
+				</form>
+
+				<div>
+					<form action="/action_page.php">
+						<input type="checkbox" name="Allow location data" value=""><h4>Allow location data</h4>
+						<br>
+						<br>
+					</form>
+				</div>
+				<div>
+					<form action="/action_page.php">
+						<input type="checkbox" name="Allow notifications" value=""><h4>Allow notification</h4>
+						<br>
+						<br>
+					</form>
+				</div>
+
+
+
+				<div class = "backbutton">
+					<h3><a href="/">Back</a></h3>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+	</html>

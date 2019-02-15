@@ -8,6 +8,12 @@
   cursor: pointer;
 }
 
+.limit {
+  alignment-baseline: center;
+  height: 882px;  <--- limits
+  width: 375px;  <--- limits
+}
+
 .dropdown {
   position: absolute;
   top: 47px;

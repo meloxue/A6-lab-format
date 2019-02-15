@@ -2,259 +2,64 @@
 	"coupons": [
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"image": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Alaska CoD Fillet",
+			"Deal": "$7.99/lb",
+			"imageURL": "./images/alaska.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Bacon Wrapped Hot Dogs",
+			"Deal": "$5.99/each",
+			"imageURL": "./images/baconwrapped.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Breaded Chicken Selections",
+			"Deal": "$5.99/each",
+			"imageURL": "./images/breadedchicken.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Budding Lunchmeat",
+			"Deal": "$7.99/each",
+			"imageURL": "./images/buddinglunch.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Boneless Skinless Chicken Breasts",
+			"Deal": "$7.99/lb",
+			"imageURL": "./images/chickenbreast.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Fully Cooked Entrees",
+			"Deal": "$5.99/each",
+			"imageURL": "./images/cookedentrees.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Cornish Game Hens",
+			"Deal": "$2.49/lb",
+			"imageURL": "./images/cornishhens.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Fresh Dover Sole",
+			"Deal": "$6.99/lb",
+			"imageURL": "./images/fillet.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"product": "Flat Iron Flank",
+			"Deal": "$8.99/lb",
+			"imageURL": "./images/flatiron.png"	
 		},
 		{
 
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-		{
-
-			"product": "Chicken",
-			"brand": "NATURALS",
-			"Deal": "BOGO",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
-		},
-
-
-
-	]
-}
+			"product": "Grass Fed Beef",
+			"Deal": "$7.99/lb",
+			"imageURL": "./images/grassbeef.png"	
+		}
+		
+    ]
 }

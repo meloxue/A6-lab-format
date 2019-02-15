@@ -10,6 +10,10 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var project = require('./routes/project');
+var stores = require('./routes/stores');
+var coupons = require('./routes/coupons');
+var setting = require('./routes/setting');
+
 // Example route
 // var user = require('./routes/user');
 
@@ -38,6 +42,28 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/project/:id', project.projectInfo);
+//Add routes here // add store routes
+app.get('/99ranch', stores.nineinfo);
+app.get('/ralph', stores.nineinfo);
+app.get('/walmart', stores.walinfo);
+app.get('/sprouts', stores.walinfo);
+app.get('/vons', stores.vonsinfo);
+app.get('/costco', stores.vonsinfo);
+app.get('/cvs', stores.cvsinfo);
+app.get('/traderjoes', stores.cvsinfo);
+app.get('/zionmarket', stores.zioninfo);
+app.get('/albertsons', stores.zioninfo);
+app.get('/food4less', stores.foodinfo);
+app.get('/pavillions', stores.foodinfo);
+app.get('/wholefoods', stores.wholeinfo);
+app.get('/northgate', stores.wholeinfo);
+//Add routes here // add coupon handlebar
+app.get('/couponjson', coupons.couponslist);
+//Add setting routes
+app.get('/preferences', setting.prefdisplay);
+app.get('/addcard', setting.addloyalty);
+app.get('/signout', setting.returntosignin);
+app.get('/checkout', setting.checkingout);
 // Example route
 // app.get('/users', user.list);
 
