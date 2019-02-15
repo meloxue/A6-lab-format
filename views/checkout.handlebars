@@ -53,13 +53,19 @@
 		</div>
 		<h1>Check Out</h1>
 
-		<div>
-			<img src ="images/chickenbogo.png" width="348" height="44">
+		<div style="border:none; padding:none; margin:none;">
+	
+		{{#each coupons}}
+		<div class="coupons" id="{{product}}">
+			
+			<a class="link" href="#" ><h3>{{product}}</h3></a>
+			<img class="img-responsive img-rounded" src="{{imageURL}}">
+		
 		</div>
+		<hr>
+		{{/each}}
 
-		<div>
-			<img src ="images/guac.png" width="348" height="44">
-		</div>
+	</div>
     
 	<div class = "backbutton">
 		<h3><a href="/">Done</a></h3>
