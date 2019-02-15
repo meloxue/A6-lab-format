@@ -59,6 +59,8 @@ app.get('/wholefoods', stores.wholeinfo);
 app.get('/northgate', stores.wholeinfo);
 //Add routes here // add coupon handlebar
 app.get('/couponjson', coupons.couponslist);
+app.get('/coupon_cat', coupons.couponscata);
+app.get('/coupon_expire', coupons.couponsexp);
 //Add setting routes
 app.get('/preferences', setting.prefdisplay);
 app.get('/addcard', setting.addloyalty);
