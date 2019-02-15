@@ -44,19 +44,19 @@ app.get('/', index.view);
 app.get('/project/:id', project.projectInfo);
 //Add routes here // add store routes
 app.get('/99ranch', stores.nineinfo);
-app.get('/ralph', stores.nineinfo);
+app.get('/ralph', stores.ralphinfos);
 app.get('/walmart', stores.walinfo);
-app.get('/sprouts', stores.walinfo);
+app.get('/sprouts', stores.sprinfo);
 app.get('/vons', stores.vonsinfo);
-app.get('/costco', stores.vonsinfo);
+app.get('/costco', stores.cosinfo);
 app.get('/cvs', stores.cvsinfo);
-app.get('/traderjoes', stores.cvsinfo);
+app.get('/traderjoes', stores.trinfo);
 app.get('/zionmarket', stores.zioninfo);
-app.get('/albertsons', stores.zioninfo);
+app.get('/albertsons', stores.albertinfo);
 app.get('/food4less', stores.foodinfo);
-app.get('/pavillions', stores.foodinfo);
+app.get('/pavillions', stores.pavinfo);
 app.get('/wholefoods', stores.wholeinfo);
-app.get('/northgate', stores.wholeinfo);
+app.get('/northgate', stores.northinfo);
 //Add routes here // add coupon handlebar
 app.get('/couponjson', coupons.couponslist);
 app.get('/coupon_cat', coupons.couponscata);
