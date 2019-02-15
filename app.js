@@ -43,6 +43,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/project/:id', project.projectInfo);
 //Add routes here // add store routes
+app.get('/main', stores.maininfo);
 app.get('/99ranch', stores.nineinfo);
 app.get('/ralph', stores.ralphinfos);
 app.get('/walmart', stores.walinfo);
@@ -63,6 +64,7 @@ app.get('/couponjson', coupons.couponslist);
 app.get('/coupon_cat', coupons.couponscata);
 app.get('/coupon_expire', coupons.couponsexp);
 app.get('/checkout', coupons.couponsbar);
+app.get('/barcodes', coupons.couponscodes);
 //Add setting routes
 app.get('/preferences', setting.prefdisplay);
 app.get('/addcard', setting.addloyalty);

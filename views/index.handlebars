@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Schnip Main Screen Wireframe</title>	
+	<title> Schnip Login Screen </title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/a5screen2.css" rel="stylesheet">
@@ -10,6 +10,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	 
 </head>
+
+ <script>
+ 	// onclick event is assigned to the #button element.
+ 	function validateForm() {
+ 		var x = document.forms["myForm"]["getuser"].value;
+ 		var y = document.forms["myForm"]["getpass"].value;
+ 		if ((x == "janedoe")&&(y == "pass123")){
+ 			window.location.href = 'main';
+ 		}else{
+ 			window.location.href = '/main';
+  			alert("Try Username: janedoe Password: pass123");
+  		}
+	}
+</script>
 
 <body>
 		<div class="appbox" align="center">
@@ -24,73 +38,51 @@
 						<area shape="rect" coords="8,6,39,39" href="">
 							<div class="dropdown-content">
 							
-									<br>
+									<a href="#">Please Login First</a>
 									
-									<form action="/action_page.php">
-										<input type="checkbox" name="tooptipon" value=""> Tool tips
-									<br>
-									<br>
-									</form>
-
-									<form action="/action_page.php">
-										<input type="checkbox" name="locationon" value=""> Location
-									<br>
-									<br>
-									</form>
-			
-									<form action="/action_page.php">
-										<input type="checkbox" name="Notificationon" value=""> Notifications
-									<br>
-									<br>
-									</form>
-
-									<a href="preferences">Preferences</a>
-				
-									<a href="addcard">Add Loyalty Card</a>
-									
-									<a href="/">Sign Out</a>
 							</div>
 					</div>
 				</map>
 		</div>
-		
-		<!-- Location detection -->
-		<div>
-			<img src ="images/at_ralphs.jpg" width="348" height="99" alt="At Ralphs?" usemap="#locationmap">
+		<!-- Login -->
+		<div class="login" align="center">
+
+			<img src ="images/login_icon.png" width="212" height="212">
 			
-			<map name="locationmap">
-				<area shape="rect" coords="220,69,272,91" href="ralph">
-				<area shape="rect" coords="286,69,337,91" href="swapmain">
-			</map>
-			
-		</div>		
-		
-		<!-- Middle -->
-		<div>
-			<img src ="images/screen1_mid.jpg" width="348" height="540" alt="Mid Screen1" usemap="#midmap">
-			<map name="midmap">
-				<area shape="rect" coords="2,2,173,76" href="ralph">
-				<area shape="rect" coords="2,80,173,155" href="99ranch">
-				<area shape="rect" coords="2,158,173,233" href="walmart">
-				<area shape="rect" coords="2,237,173,311" href="sprouts">
-				<area shape="rect" coords="2,314,173,389" href="vons">
-				<area shape="rect" coords="2,392,173,467" href="costco">
-				<area shape="rect" coords="2,470,173,539" href="cvs">
-				<area shape="rect" coords="176,2,347,76" href="traderjoes">
-				<area shape="rect" coords="176,80,347,155" href="zionmarket">
-				<area shape="rect" coords="176,158,347,233" href="albertsons">
-				<area shape="rect" coords="176,236,347,311" href="food4less">
-				<area shape="rect" coords="176,314,347,389" href="pavillions">
-				<area shape="rect" coords="176,392,347,467" href="wholefoods">
-				<area shape="rect" coords="176,470,347,539" href="northgate">
-			</map>
+			<div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                	 <form>
+                        <div class="form-group">
+                            <input type="text" onsubmit="validateForm()" class="form-control" name="getuser" placeholder="Your Username *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" onsubmit="validateForm()" class="form-control" name="getpass" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" "class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
+                            <a href="main" class="ForgetPwd">Click me to progress</a>
+                        </div>
+                    </form>
+                   
+                    <div>
+                    	<img src ="images/facebook_login.png" width="112" height="38">
+                    	<img src ="images/google_login.png" width="112" height="38">
+                    	<img src ="images/signup_login.png" width="112" height="38">
+                    </div>
+                </div>
+            </div>
+
+			<script>
+
+			</script>
 		</div>
 		<!-- Bottom -->
 		<div>
-			<img src ="images/screen1_bot.jpg" width="348" height="50" alt="Bot Screen1" usemap="#botmap">
-			<map name="botmap">
-				<area shape="circle" coords="321, 24, 24" href="checkout">
-			</map>
+			<img src ="images/screen1_bot_blank.jpg" width="348" height="50">
+			
 		</div>
 
 	</div>

@@ -1,5 +1,8 @@
 var data = require('../data.json');
 
+exports.maininfo = function(req, res) { 
+	res.render('main',)//'sprouts','vons',)
+}
 exports.nineinfo = function(req, res) { 
 	res.render('99ranch',)//'sprouts','vons',)
 }

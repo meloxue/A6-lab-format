@@ -15,3 +15,6 @@ exports.couponsexp= function(req, res) { 
 exports.couponsbar= function(req, res) { 
 	res.render('checkout', data_bar);
 }
+exports.couponscodes= function(req, res) { 
+	res.render('barcodes', data_bar);
+}

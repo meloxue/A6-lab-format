@@ -2,77 +2,70 @@
 
 <html>
 <head>
-	<title>Schnip - Check Out Page</title>	
+	<title>Schnip Add Loyalty Card</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="css/a5skeleton.css" rel="stylesheet">
-   
+	<link href="css/a5screen2.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="js/a5.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	
 </head>
 
 <body>
-	<div class="container">
+		<div class="appbox" align="center">
 		
-		<!-- SETTINGS DROPDOWN -->
-		<div class="top_container">
+			<!-- TOP -->
+			<div class="top_container" align="center">
 			<img src ="images/screen1_top.jpg" width="348" height="44" alt="Top Screen" usemap="#topmap">
 				<map name="topmap">
-					<div class="dropdown">
+					
+					<!-- SETTINGS DROPDOWN -->
+					<div class="dropdown3">
 						<area shape="rect" coords="8,6,39,39" href="">
-							<div class="dropdown-content">
+							<div class="dropdown3-content">
 							
-									<a href="preferences">Preferences</a>
-									
 									<br>
 									
 									<form action="/action_page.php">
-										<input type="checkbox" name="tooptipon" value="">Tool tips
+										<input type="checkbox" name="tooptipon" value=""> Tool tips
 									<br>
 									<br>
 									</form>
 
 									<form action="/action_page.php">
-										<input type="checkbox" name="locationon" value="">Location
+										<input type="checkbox" name="locationon" value=""> Location
 									<br>
 									<br>
 									</form>
 			
 									<form action="/action_page.php">
-										<input type="checkbox" name="Notificationon" value="">Notifications
+										<input type="checkbox" name="Notificationon" value=""> Notifications
 									<br>
 									<br>
 									</form>
+
+									<a href="preferences">Preferences</a>
 				
-									<a href="addcard.">Add Loyalty Card</a>
+									<a href="addcard">Add Loyalty Card</a>
 									
-									<a href="signout">Sign Out</a>
+									<a href="/">Sign Out</a>
 							</div>
 					</div>
 				</map>
 		</div>
-		<h1>Check Out</h1>
 
-		<div style="border:none; padding:none; margin:none;">
-	
-		{{#each coupons}}
-		<div class="coupons" id="{{product}}">
-			
-			<a class="link" href="#" ><h3>{{product}}</h3></a>
-			<img class="img-responsive img-rounded" src="{{imageURL}}">
+		<!-- CHECKOUT -->
+		<iframe name="barcode_frame" src="barcodes" style="border:none; padding:none; margin:none;" height="648" width="346"></iframe>
 		
-		</div>
-		<hr>
-		{{/each}}
-
-	</div>
     
-	<div class = "backbutton">
-		<h3><a href="/">Done</a></h3>
-	</div>
-
-
-
-
-</body>
+		<!-- BOTTOM -->
+		<div>
+			<a href="/">
+			<img src ="images/screen1_bot_checkout.jpg" width="348" height="50">
+			</a>
+			</div>
+		</div>
+		</body>
 </html>
