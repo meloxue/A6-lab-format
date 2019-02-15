@@ -7,6 +7,5 @@ exports.addloyalty = function(req, res) { 
 exports.returntosignin = function(req, res) { 
 	res.render('signout',)//'sprouts','vons',)
 }
-exports.checkingout = function(req, res) { 
-	res.render('checkout',)//'sprouts','vons',)
-}
+
+

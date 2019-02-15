@@ -62,11 +62,11 @@ app.get('/swapmain', stores.swapinfo);
 app.get('/couponjson', coupons.couponslist);
 app.get('/coupon_cat', coupons.couponscata);
 app.get('/coupon_expire', coupons.couponsexp);
+app.get('/checkout', coupons.couponsbar);
 //Add setting routes
 app.get('/preferences', setting.prefdisplay);
 app.get('/addcard', setting.addloyalty);
 app.get('/signout', setting.returntosignin);
-app.get('/checkout', setting.checkingout);
 // Example route
 // app.get('/users', user.list);
 
