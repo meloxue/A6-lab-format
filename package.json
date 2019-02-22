@@ -15,10 +15,9 @@
     "express": "3.x",
     "express3-handlebars": "*",
     "mongodb": "*",
-    "mongoose": "*",
-    "update-notifier": "^2.5.0"
+    "mongoose": "*"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "8.9.x"
   }
 }

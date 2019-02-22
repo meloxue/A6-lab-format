@@ -31,7 +31,7 @@ function initializePage() {
 
 		//display the menu for this area of the image
 		document.getElementById(menuId).style.display="block";
-		});
+		};
 
 function projectClick(e) {
 	e. preventDefault();

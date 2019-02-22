@@ -1,10 +1,22 @@
 'use strict';
 
-
+ var heart_track = 'un';
  var guac_track = 'un';
  var gran_track = 'un';
  var pizza_track = 'un';
  var spam_track = 'un';
+
+function heartChange(){
+	var image = document.getElementById('heart');
+	
+	if(heart_track=='un'){
+		image.src='images/sheart_pressed.jpg';
+		heart_track='pr';
+	}else{
+		image.src='images/sheart_unpressed.jpg';
+		heart_track='un';
+	}
+ }
 
  function guacChange(){
 	var image = document.getElementById('guac');

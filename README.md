@@ -1,4 +1,4 @@
-lab6
+IXD Lab7 - winter 2017
 ====
 
-Lab 6: FB Login and AJAX
+Lab 7 for Intro HCI: Analytics and A/B Testing
